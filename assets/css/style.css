@@ -142,6 +142,24 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+/* Circle Cover */
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image in to a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 /* Footer */
 #social-networks {
@@ -199,6 +217,8 @@ main {
         width: 300px;
         right: 50px;
     }
+    
+    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
